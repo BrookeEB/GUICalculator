@@ -1,0 +1,4 @@
+tkinter >=
+py2exe >=
+distutils.core >=
+pip >= 10.0 
