@@ -7,7 +7,7 @@ from tkinter import *
 me = Tk()
 me.geometry("354x460")
 me.title("Python GUI Calculator")
-melabel = Label(me, text="Calculator", fg="White", bg="Black", font=("Times", 25, 'bold'))
+melabel = Label(me, text="Simple Calculator", fg="White", bg="Black", font=("Times", 25, 'bold'))
 melabel.pack(side=TOP)
 me.config(background='Black')
 
