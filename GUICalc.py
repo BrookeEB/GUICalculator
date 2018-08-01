@@ -14,3 +14,43 @@ me.config(background='Black')
 textin = StringVar()
 operator = ""
 
+# Functions for buttons on the calculator. These determine what the buttons will be doing and are connected
+# to the math function buttons at the bottom of this code.
+
+def clickbut(numbers):
+    global operator
+    operator = operator + str(numbers)
+    textin.set(operator)
+
+
+def equlbut():
+    global operator
+    add = str(eval(operator))
+    textin.set(add)
+    operator = ''
+
+
+def equlbut():
+    global operator
+    sub = str(eval(operator))
+    textin.set(sub)
+    operator = ''
+
+
+def equlbut():
+    global operator
+    mul = str(eval(operator))
+    textin.set(mul)
+    operator = ''
+
+
+def equlbut():
+    global operator
+    div = str(eval(operator))
+    textin.set(div)
+    operator = ''
+
+
+def clrbut():
+    textin.set('')
+
